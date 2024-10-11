@@ -1,0 +1,118 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Css Personnels */
+
+.btns 
+{
+   display: flex;
+   z-index: 1;
+   width: 100%;
+   align-items: center ;
+   justify-content: center;
+}
+
+.btns div 
+{
+  margin: 20px;
+}
+
+.addform
+{
+   display: flex;
+   height: 100vh;
+   width: 100%;
+   background-color: rgba(0,0,0,0.2);
+   border-radius: 10px;
+   z-index: 999;
+   align-items: center;
+   justify-content: center;
+}
+
+.addform .content 
+{
+  height: 170px;
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+  padding: 2rem;
+}
+
+
+.addform .content input
+{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  margin-bottom: 0px;
+  font-family: "Poppins";
+}
+
+.container
+{
+   
+   background-color: rgb(255, 185, 148);
+}
+
+.container ul 
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container ul li 
+{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Poppins';
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+.container ul li Button 
+{
+  height: 30px;
+}
+ 
